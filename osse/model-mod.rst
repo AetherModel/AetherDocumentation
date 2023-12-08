@@ -85,3 +85,6 @@ Comparison of model_mod files from different branches
 Kevin's model_mod is `on the aether branch of DART <https://github.com/NCAR/DART/blob/aether/models/aether_lon-lat/model_mod.f90>`_.
 Compare it to the TIEgcm model_mod to see which subroutines should be kept in
 the model_mod you've tested for aether_lon-lat.
+
+It seems most straightforward to discard the unused subroutines from the TIEgcm
+model mod that made their way into aether_lon-lat.
